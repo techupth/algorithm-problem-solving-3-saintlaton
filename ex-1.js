@@ -24,3 +24,4 @@ const sortedCustomers = sortCustomerName(customers);
 console.log(sortedCustomers);
 
 // ตอบคำถามตรงนี้จ้า
+//ใน worst case คือ O(n^2) เพราะคือ nested loops จะลูปซ้อนลูปไปเรื่อย ๆ
